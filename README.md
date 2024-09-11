@@ -1,3 +1,6 @@
+![NPM Version](https://img.shields.io/npm/v/ai-coach.js)
+
+
 # ai-coach.js
 Javascript library for browser side AI solutions like AskTheDocs, etc. 
 
@@ -12,7 +15,7 @@ If you don't have an existing vector database, make an incident on github and I'
 npm install ai-coach.js
 ```
 
-## Prepare the embedding file from Chroma Vector Database
+## Prepare the embedding file from Chroma Vector Database with Python
 ```python
 import json
 
