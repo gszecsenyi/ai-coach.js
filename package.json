@@ -1,0 +1,29 @@
+{
+  "name": "ai-coach.js",
+  "version": "1.0.4",
+  "description": "Javascript library for browser side AI solutions like AskTheDocs, etc.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gszecsenyi/ai-coach.js.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "Gergely Szecsenyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gszecsenyi/ai-coach.js/issues"
+  },
+  "homepage": "https://github.com/gszecsenyi/ai-coach.js#readme",
+  "dependencies": {
+    "langchain": "^0.2.18"
+  }
+}
