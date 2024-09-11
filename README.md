@@ -10,6 +10,6 @@ npm install ai-coach.js
 ```javascript
 import { AskTheDocs } from 'ai-coach.js';
 
-const askTheDocs = new AskTheDocs();
-askTheDocs.ask('How to install ai-coach.js?');
+const askTheDocs = new AskTheDocs('My query here', 'My API key', 'Model name', 'Embedding file path for fetch');
+askTheDocs.generateAnswer('How to install ai-coach.js?');
 ```
