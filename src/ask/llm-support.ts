@@ -7,7 +7,7 @@ export class LLM {
         const llm = new ChatOpenAI({
             model: model, 
             temperature: temperature,
-            apiKey: apiKey, // In Node.js defaults to process.env.OPENAI_API_KEY
+            apiKey: apiKey, 
           });
 
           return llm;
@@ -17,4 +17,6 @@ export class LLM {
         const embeddings = new OpenAIEmbeddings({openAIApiKey:apiKey});
         return embeddings;
     }
+
+    
 }
