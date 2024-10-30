@@ -1,6 +1,6 @@
 {
   "name": "ai-coach.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Javascript library for browser side AI solutions like AskTheDocs, etc.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/gszecsenyi/ai-coach.js#readme",
   "dependencies": {
-    "langchain": "^0.2.18"
+    "langchain": "^0.2.19"
   }
 }
