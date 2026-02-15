@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/gszecsenyi/ai-coach.js#readme",
   "dependencies": {
-    "langchain": "^0.2.19"
+    "langchain": "^0.3.37"
   }
 }
